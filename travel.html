@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Afreen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        @font-face {
+            font-family: playfairvarfont;
+            src: url(assets/fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf);
+        }
+        .travel-content{
+            padding: 10px 10%;
+        }
+        .post{
+            width: 100%;
+            padding: 20px;
+            border-bottom: .5px solid black;
+        }
+        .travel-pics{
+            width: 50%;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .travel-pics img{
+            height: 100%;
+            transition: .5s;
+        }
+        .travel-info{
+            width: 50%;
+            height: 350px;
+            transition: .5s;
+        }
+        .travel-info h2{
+            font-family: playfairvarfont;
+            font-size: 48px;
+            color: #4a005a;
+        }
+        .travel-info p{
+            font-size: 24px;
+            color: #1a362c;
+            text-align: justify;
+        }
+        .travel-content .post{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .travel-pics img:hover{
+            transform: translate(5px, -5px);
+            box-shadow: -3px -3px 5px rgb(62, 62, 62);
+        }
+        .travel-info:hover{
+            transform: translateX(20px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Afreen Ali</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="concerts.html">Concert</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="travel-content">
+        <div class="post">
+            <div class="travel-pics">
+                <img src="assets/img/toronto 1.jpeg" alt="" srcset="">
+                <img src="assets/img/toronto 2.jpeg" alt="" srcset="">
+            </div>
+            <div class="travel-info">
+                <h2>Toronto</h2>
+                <p>Since I live in Toronto, I have the luxury of exploring unique places and creating wonderful memories. In the summer, I love visiting the AGO (Art Gallery of Toronto) since they always have cool new exhibitions to visit. Asides from museums, I love trying new restaurants in Toronto. My two favouirte ones I tried this year were Bar Poet and Mado.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="travel-info">
+                <h2>Montreal</h2>
+                <p>This summer, I went to Montreal with my parents and my sister. While we were there, we went to Old Port and rode on the Ferris Wheel, climbed Mount Royal, and went to this cool rubber duck store. I loved this trip since it was the first time in a while that I got to spend one on one time with my family.</p>
+            </div>
+            <div class="travel-pics">
+                <img src="assets/img/montreal 1.jpeg" alt="" srcset="">
+                <img src="assets/img/montreal 2.jpeg" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="travel-pics">
+                <img src="assets/img/chicago 1.jpeg" alt="" srcset="">
+                <img src="assets/img/chicago 2.jpeg" alt="" srcset="">
+            </div>
+            <div class="travel-info">
+                <h2>Chicago</h2>
+                <p>Last summer I went to Chicago with my cousins for a wedding and it was super fun. I’ve been to Chicago multiple times but we did touristy things for my cousins who have never been before. We went to see the Bean and walked around downtown. It was a super fun trip!</p>
+            </div>
+        </div>
+
+        <div class="post" style="border: none;">
+            <div class="travel-info">
+                <h2>Miami</h2>
+                <p>Going to Miami alone to meet my cousins was one of the best experiences ever. This was the first time I ever travelled solo and I am so glad I did. We rode all around Miami, went shopping a lot, and stayed in a super nice hotel.</p>
+            </div>
+            <div class="travel-pics">
+                <img src="assets/img/miami 1.jpeg" alt="" srcset="">
+                <img src="assets/img/miami 2.jpeg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-links">
+            <div class="newsletter">
+                <!-- Newsletter Subscription Form -->
+                <form action="#" method="post">
+                    <label for="email">Subscribe to my Newsletter</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <button type="submit" style="font-size: 14px; margin-top: 10px; padding: 8px 10px; border-radius: 10px;">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="social-icons">
+                <!-- Social Media Icons -->
+                <label>Social Links</label><br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+
+        <div>
+            <!-- Copyright Message -->
+            <p style="font-size: 22px; color: #fd0054; margin: 20px 0; text-align: center;">&copy; 2023 by Afreen Ali. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
